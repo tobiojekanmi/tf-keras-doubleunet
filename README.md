@@ -48,6 +48,7 @@ The following modifications were made on the initial DoubleU-Net architecture.
 The DoubleU-Net Architecture can be used as follows:
 
 from model import doubleunet (import the doubleunet architecture from the model file)
+
 model = doubleunet(num_classes,
                input_shape=(224, 224, 3),
                model_weights=None,
